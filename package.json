@@ -1,0 +1,38 @@
+{
+  "name": "@secureagentry/opencode-agentry",
+  "version": "0.1.0",
+  "description": "Find, verify, install and run QuickAgents (signed, scanned agent packages with a declared capability contract) and build your own, from your agent host.",
+  "type": "module",
+  "license": "MIT",
+  "homepage": "https://docs.secureagentry.net/agentry/mcp/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blaktron/agentry-plugin-opencode.git"
+  },
+  "bugs": {
+    "url": "https://github.com/blaktron/agentry-plugin-opencode/issues"
+  },
+  "keywords": [
+    "opencode",
+    "opencode-plugin",
+    "agentry",
+    "quickagents",
+    "agents",
+    "mcp",
+    "skills",
+    "sandbox",
+    "supply-chain",
+    "security"
+  ],
+  "exports": {
+    "./server": "./plugin.mjs"
+  },
+  "files": [
+    "plugin.mjs",
+    "skills",
+    "commands",
+    "server",
+    "README.md",
+    "LICENSE"
+  ]
+}
