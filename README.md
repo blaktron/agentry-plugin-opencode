@@ -16,7 +16,7 @@ same name is kept. For the slash commands, copy the files in `commands/` into
 ## Requirements
 
 - The Agentry CLI 0.6.63 or newer on `PATH`. Install it from https://secureagentry.net/download.
-- Node 20 or newer on `PATH`.
+- Node 24 or newer on `PATH`.
 - Docker, for runs on this computer.
 
 Signing in stays in your terminal (`agentry login`). Documentation: https://docs.secureagentry.net/agentry/mcp/.
